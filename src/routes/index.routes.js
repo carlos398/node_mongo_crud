@@ -16,12 +16,6 @@ router.get("/", renderTasks);
 
 router.post("/task/add", createTask);
 
-// about us route
-
-router.get("/about", (req, res) => {
-  res.render("about");
-});
-
 // Edit task routes
 
 router.get("/task/:id/edit", renderEditTask);
