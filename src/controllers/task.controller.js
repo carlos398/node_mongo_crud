@@ -6,7 +6,7 @@ export const renderTasks = async (req, res) => {
   res.render("index", { tasks: tasks });
 };
 
-// create tasks
+// create tasks uwu
 export const createTask = async (req, res) => {
   try {
     const task = Task(req.body);
